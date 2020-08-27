@@ -1,10 +1,10 @@
 <?php
 
 try {
-    define( 'DB_USUARIO', 'root' );
-    define( 'DB_PASSWORD', 'root' );
-    define( 'DB_HOST', 'localhost' );
-    define( 'DB_NOMBRE', 'carolina_spa' );
+    define( 'DB_USUARIO', 'a2Npbt4MZz' );
+    define( 'DB_PASSWORD', 'uUrIjTp86D' );
+    define( 'DB_HOST', 'remotemysql.com' );
+    define( 'DB_NOMBRE', 'a2Npbt4MZz' );
 
     $conexion = new mysqli( DB_HOST, DB_USUARIO, DB_PASSWORD, DB_NOMBRE );
 
