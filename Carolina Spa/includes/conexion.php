@@ -6,9 +6,9 @@
 
   $conexion = new mysqli($host_name, $user_name, $password, $database);
 
+$conexion->set_charset( 'utf8' );
+
   if ($conexion->connect_error) {
     die('<p>Error al conectar con servidor MySQL: '. $conexion->connect_error .'</p>');
-  } else {
-    echo '<p>Se ha establecido la conexión al servidor MySQL con éxito.</p>';
   }
 ?>
