@@ -9,6 +9,8 @@ try {
     $conexion = new mysqli( DB_HOST, DB_USUARIO, DB_PASSWORD, DB_NOMBRE );
 
     $conexion->set_charset( 'utf8' );
+    
+    echo $conexion;
 
 } catch( Exception $e ) {
     echo $e->getMessage();
