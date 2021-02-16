@@ -1,10 +1,10 @@
 <?php
 
 try {
-    define( 'DB_USUARIO', 'a2Npbt4MZz' );
-    define( 'DB_PASSWORD', 'uUrIjTp86D' );
-    define( 'DB_HOST', 'remotemysql.com' );
-    define( 'DB_NOMBRE', 'a2Npbt4MZz' );
+    define( 'DB_USUARIO', 'dbu1545208' );
+    define( 'DB_PASSWORD', 'CursosUdemy2020.' );
+    define( 'DB_HOST', 'db5001750456.hosting-data.io' );
+    define( 'DB_NOMBRE', 'dbs1443684' );
 
     $conexion = new mysqli( DB_HOST, DB_USUARIO, DB_PASSWORD, DB_NOMBRE );
 
