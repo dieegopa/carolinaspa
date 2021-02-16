@@ -2,7 +2,7 @@
   $host_name = 'sql11.freemysqlhosting.net';
   $database = 'sql11393353';
   $user_name = 'sql11393353';
-  $password = 'sql11393353';
+  $password = 'cV1lAxe2A3';
 
   $conexion = new mysqli($host_name, $user_name, $password, $database);
 
