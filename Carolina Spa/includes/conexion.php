@@ -1,8 +1,8 @@
 <?php
-  $host_name = 'db5001750456.hosting-data.io';
-  $database = 'dbs1443684';
-  $user_name = 'dbu1545208';
-  $password = 'CursosUdemy2020.';
+  $host_name = 'sql11.freemysqlhosting.net';
+  $database = 'sql11393353';
+  $user_name = 'sql11393353';
+  $password = 'sql11393353';
 
   $conexion = new mysqli($host_name, $user_name, $password, $database);
 
