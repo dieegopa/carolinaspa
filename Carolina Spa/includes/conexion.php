@@ -1,19 +1,14 @@
 <?php
+  $host_name = 'db5001750456.hosting-data.io';
+  $database = 'dbs1443684';
+  $user_name = 'dbu1545208';
+  $password = 'CursosUdemy2020.';
 
-try {
-    define( 'DB_USUARIO', 'dbu1545208' );
-    define( 'DB_PASSWORD', 'CursosUdemy2020.' );
-    define( 'DB_HOST', 'db5001750456.hosting-data.io' );
-    define( 'DB_NOMBRE', 'dbs1443684' );
+  $conexion = new mysqli($host_name, $user_name, $password, $database);
 
-    $conexion = new mysqli( DB_HOST, DB_USUARIO, DB_PASSWORD, DB_NOMBRE );
-
-    $conexion->set_charset( 'utf8' );
-   
-
-} catch( Exception $e ) {
-    echo $e->getMessage();
-    exit;
-}
-
+  if ($conexion->connect_error) {
+    die('<p>Error al conectar con servidor MySQL: '. $conexion->connect_error .'</p>');
+  } else {
+    echo '<p>Se ha establecido la conexión al servidor MySQL con éxito.</p>';
+  }
 ?>
